@@ -14,6 +14,7 @@
             </div>
             <div>
                 <h1 class="text-xl font-bold pt-8 pb-2">Post of: {{ Auth::user()->name }}</h1>
+                <a href={{ route('blog.index') }}>Blog</a><br>
             @foreach (Auth::user()->posts as $post)
                 {{ $post->title }}<br>
             @endforeach

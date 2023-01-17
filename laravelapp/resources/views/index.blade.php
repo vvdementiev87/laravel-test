@@ -10,6 +10,6 @@
 <body>
     <h1 class="text-3xl font-bold underline">Dashboard page</h1><br>
     <a href={{ route('blog.index') }}>Blog</a><br>
-
+    <a href={{ route('dashboard') }}>Dashboard</a><br>
 </body>
 </html>
